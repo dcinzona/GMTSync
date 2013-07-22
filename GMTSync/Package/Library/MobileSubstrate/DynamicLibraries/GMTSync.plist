@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Filter</key>
+	<dict>
+		<key>Bundles</key>
+		<array>
+			<string>com.gmtaz.Clockbuilder2</string>
+			<string>com.gmtaz.ClockBuilder</string>
+			<string>com.gmtaz.typophone-clock</string>
+		</array>
+		<key>Classes</key>
+		<array>
+			<string>GMTThemeSync</string>
+			<string>themeConverter</string>
+		</array>
+	</dict>
+</dict>
+</plist>

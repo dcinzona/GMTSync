@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0678F0151D53A1005C8198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0678EF151D53A1005C8198 /* Foundation.framework */; };
+		CB0678FA151D53A1005C8198 /* GMTSync.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB0678F9151D53A1005C8198 /* GMTSync.mm */; };
+		CB7721C1151E960D0091382C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7721C0151E960D0091382C /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB0678EC151D53A1005C8198 /* GMTSync.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = GMTSync.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0678EF151D53A1005C8198 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB0678F5151D53A1005C8198 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		CB0678F7151D53A1005C8198 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		CB0678F8151D53A1005C8198 /* GMTSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMTSync-Prefix.pch"; sourceTree = "<group>"; };
+		CB0678F9151D53A1005C8198 /* GMTSync.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GMTSync.mm; sourceTree = "<group>"; };
+		CB0678FE151D53A1005C8198 /* GMTSync.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GMTSync.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/GMTSync.plist; sourceTree = "<group>"; };
+		CB7721C0151E960D0091382C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0678E8151D53A1005C8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7721C1151E960D0091382C /* UIKit.framework in Frameworks */,
+				CB0678F0151D53A1005C8198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0678E0151D53A1005C8198 = {
+			isa = PBXGroup;
+			children = (
+				CB0678F1151D53A1005C8198 /* GMTSync */,
+				CB0678EE151D53A1005C8198 /* Frameworks */,
+				CB0678ED151D53A1005C8198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0678ED151D53A1005C8198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678EC151D53A1005C8198 /* GMTSync.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0678EE151D53A1005C8198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB7721C0151E960D0091382C /* UIKit.framework */,
+				CB0678EF151D53A1005C8198 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0678F1151D53A1005C8198 /* GMTSync */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678F9151D53A1005C8198 /* GMTSync.mm */,
+				CB0678F2151D53A1005C8198 /* Package */,
+				CB0678F6151D53A1005C8198 /* Supporting Files */,
+			);
+			path = GMTSync;
+			sourceTree = "<group>";
+		};
+		CB0678F2151D53A1005C8198 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678F3151D53A1005C8198 /* DEBIAN */,
+				CB0678FB151D53A1005C8198 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		CB0678F3151D53A1005C8198 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678F5151D53A1005C8198 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		CB0678F6151D53A1005C8198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678F7151D53A1005C8198 /* PackageVersion.plist */,
+				CB0678F8151D53A1005C8198 /* GMTSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB0678FB151D53A1005C8198 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678FC151D53A1005C8198 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		CB0678FC151D53A1005C8198 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678FD151D53A1005C8198 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		CB0678FD151D53A1005C8198 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				CB0678FE151D53A1005C8198 /* GMTSync.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB0678E9151D53A1005C8198 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB0678EB151D53A1005C8198 /* GMTSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB067901151D53A1005C8198 /* Build configuration list for PBXNativeTarget "GMTSync" */;
+			buildPhases = (
+				CB0678E7151D53A1005C8198 /* Sources */,
+				CB0678E8151D53A1005C8198 /* Frameworks */,
+				CB0678E9151D53A1005C8198 /* Headers */,
+				CB0678EA151D53A1005C8198 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMTSync;
+			productName = GMTSync;
+			productReference = CB0678EC151D53A1005C8198 /* GMTSync.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0678E2151D53A1005C8198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = GMTAZ.com;
+			};
+			buildConfigurationList = CB0678E5151D53A1005C8198 /* Build configuration list for PBXProject "GMTSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB0678E0151D53A1005C8198;
+			productRefGroup = CB0678ED151D53A1005C8198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0678EB151D53A1005C8198 /* GMTSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB0678EA151D53A1005C8198 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0678E7151D53A1005C8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0678FA151D53A1005C8198 /* GMTSync.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB0678FF151D53A1005C8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		CB067900151D53A1005C8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		CB067902151D53A1005C8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GMTSync/GMTSync-Prefix.pch";
+				INSTALL_GROUP = wheel;
+				INSTALL_OWNER = root;
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = GMTPhone.home.local;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		CB067903151D53A1005C8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GMTSync/GMTSync-Prefix.pch";
+				INSTALL_GROUP = wheel;
+				INSTALL_OWNER = root;
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = DevPhone.local;
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0678E5151D53A1005C8198 /* Build configuration list for PBXProject "GMTSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0678FF151D53A1005C8198 /* Release */,
+				CB067900151D53A1005C8198 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB067901151D53A1005C8198 /* Build configuration list for PBXNativeTarget "GMTSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB067902151D53A1005C8198 /* Release */,
+				CB067903151D53A1005C8198 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB0678E2151D53A1005C8198 /* Project object */;
+}

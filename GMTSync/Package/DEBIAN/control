@@ -1,0 +1,17 @@
+Package: com.gmtaz.GMTSync
+Name: GMTSync
+Version: 1.1-7
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Gustavo Tandeciarz
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
